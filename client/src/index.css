@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --font-sans: 'Inter', sans-serif;
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+:root {
+  /* Apple-style Light Mode */
+  --background: 0 0% 100%; /* Pure White */
+  --foreground: 0 0% 10%; /* Near Black for text */
+  
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 10%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 10%;
+  
+  --primary: 0 0% 10%; /* Black branding */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 240 5% 96%; /* Apple light gray */
+  --secondary-foreground: 0 0% 10%;
+  
+  --muted: 240 5% 96%;
+  --muted-foreground: 0 0% 45%;
+  
+  --accent: 120 100% 50%; /* Bright Green from Logo */
+  --accent-foreground: 0 0% 0%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 240 6% 90%; /* Very subtle borders */
+  --input: 240 6% 90%;
+  --ring: 0 0% 10%;
+  
+  --radius: 0.75rem;
+}
+
+.dark {
+  /* Dark Mode - Deep Charcoal/Black */
+  --background: 0 0% 0%;
+  --foreground: 0 0% 98%;
+  
+  --card: 0 0% 8%;
+  --card-foreground: 0 0% 98%;
+  
+  --popover: 0 0% 8%;
+  --popover-foreground: 0 0% 98%;
+  
+  --primary: 0 0% 98%;
+  --primary-foreground: 0 0% 9%;
+  
+  --secondary: 0 0% 15%;
+  --secondary-foreground: 0 0% 98%;
+  
+  --muted: 0 0% 15%;
+  --muted-foreground: 0 0% 65%;
+  
+  --accent: 211 100% 50%;
+  --accent-foreground: 0 0% 98%;
+  
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+  
+  --border: 0 0% 20%;
+  --input: 0 0% 20%;
+  --ring: 0 0% 83%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground selection:bg-black/10 selection:text-black;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Utility for that Apple-style glass blur if needed */
+.glass {
+  @apply bg-white/80 backdrop-blur-md border-b border-white/20 supports-[backdrop-filter]:bg-white/60;
+}
+
+.dark .glass {
+  @apply bg-black/80 backdrop-blur-md border-b border-white/10 supports-[backdrop-filter]:bg-black/60;
+}

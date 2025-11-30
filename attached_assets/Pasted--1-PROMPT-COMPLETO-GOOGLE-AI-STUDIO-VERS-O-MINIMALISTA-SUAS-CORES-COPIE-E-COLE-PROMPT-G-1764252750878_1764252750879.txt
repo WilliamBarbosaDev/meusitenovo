@@ -1,0 +1,199 @@
+✅ 1) PROMPT COMPLETO – GOOGLE AI STUDIO (VERSÃO MINIMALISTA + SUAS CORES)
+
+COPIE E COLE:
+
+PROMPT — GOOGLE AI STUDIO (VERSÃO MINIMALISTA E PREMIUM)
+Você agora é um desenvolvedor sênior especializado em landing pages minimalistas e premium, usando HTML + TailwindCSS.
+
+Quero que você gere um arquivo HTML ÚNICO, extremamente limpo, moderno e elegante, seguindo os princípios:
+
+Estilo Apple
+
+Minimalismo extremo
+
+Predominância do branco
+
+Layout silencioso e premium
+
+Muito espaço em branco
+
+Tipografia moderna e leve
+
+Microanimações suaves
+
+Sem poluição visual
+
+Esse site é para minha marca pessoal:
+
+👉 William B Designer
+
+🎨 PALETA DE CORES – OBRIGATÓRIO
+
+Use branco como cor principal.
+Todos os detalhes, botões, ícones, bordas e destaques devem usar APENAS as cores da minha marca:
+
+CORES DA MINHA MARCA:
+➡ Cole aqui as suas cores antes de enviar ao AI Studio
+
+🧱 ESTRUTURA DO SITE
+
+Gere o HTML completo com Tailwind seguindo esta ordem:
+
+Header
+
+Hero
+
+Quem Sou
+
+Serviços
+
+Benefícios
+
+Portfólio
+
+Depoimentos
+
+Formas de Pagamento
+
+CTA Final
+
+Footer
+
+Todas as seções devem ser separadas com:
+
+<!-- SECTION: NOME DA SEÇÃO -->
+
+🧾 DETALHES DO DESIGN (OBRIGATÓRIO)
+HEADER
+
+Totalmente branco
+
+Logo minimalista: “William B Designer”
+
+Menu leve: Início, Portfólio, Serviços, Depoimentos, Contato
+
+CTA discreto usando cor da marca
+
+Linha de borda super suave (0.5px)
+
+Estilo Apple Clean
+
+HERO
+
+Sem imagens pesadas
+
+Espaço amplo
+
+Título grande e bold:
+“Sites Profissionais, Landing Pages e Design que Vendem”
+
+Subtexto leve
+
+Dois botões minimalistas usando apenas as cores da marca
+
+Microanimação suave: hover com leve scale
+
+QUEM SOU
+
+Layout super clean
+
+Texto curto descrevendo missão
+
+Foto minimalista em placeholder
+
+Nada exagerado
+
+SERVIÇOS
+
+Grid minimalista com cartões brancos, borda suave e ícones extremamente simples.
+
+Serviços:
+
+Site Institucional
+
+Landing Page
+
+Página de Vendas
+
+E-commerce
+
+Social Media
+
+Artes Avulsas
+
+Encartes
+
+Manutenção
+
+Hospedagem
+
+Estrutura de Lançamento
+
+Cards devem ter:
+
+Muito branco
+
+Ícone super minimalista
+
+Bordas finas
+
+Hover suave
+
+BENEFÍCIOS
+
+Grid discreto com bullets:
+
+Layouts personalizados
+
+Estratégia + design
+
+Atendimento próximo
+
+Entregas rápidas
+
+Experiência real
+
+PORTFÓLIO
+
+Grid com 6–9 mockups minimalistas usando placeholders do Unsplash.
+
+DEPOIMENTOS
+
+Cards brancos, bordas leves e tipografia simples.
+
+FORMAS DE PAGAMENTO
+
+Bloco minimalista, com visual limpo:
+
+PIX
+
+Crédito até 3x
+
+Débito
+
+❌ Não aceitamos boleto
+
+Informações de domínio também minimalistas.
+
+CTA FINAL
+
+Título limpo:
+“Pronto para elevar sua presença digital?”
+
+Botão minimalista da cor da marca.
+
+⚙ REQUISITOS TÉCNICOS
+
+Tailwind via CDN
+
+Um arquivo HTML único
+
+Totalmente responsivo
+
+Microanimações somente via Tailwind
+
+Nada de classes comprimidas
+
+Imagens do Unsplash
+
+Código comentado por seção
